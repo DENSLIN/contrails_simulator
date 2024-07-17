@@ -335,7 +335,7 @@ while True:
                 maskX.append(x)
                 maskY.append(y)
 
-
+    
     ax, fig = plt.subplots(figsize=(12, 12))
     # plt.imshow(np.flipud(np.rot90(1-false_color.T)))
     plt.scatter(maskY, maskX, c="red", s=0.1)
